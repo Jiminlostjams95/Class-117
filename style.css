@@ -1,0 +1,48 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
+}
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px rgb(255, 147, 147);
+}
+.heading_div{
+    float: none;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 5px 5px 5px rgb(128, 128, 255);
+}
+.heading_div2{
+    font-size: 18px;
+}
+.result_para_tag{
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+}
+.copyright_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #8299d1;
+    line-height: 3;
+    text-align: center;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ffb3b3;
+    margin-top: 100px;
+    animation-name: magic;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes magic{
+    from{box-shadow: 5px 5px 10px #ffb3b3}
+    to{box-shadow: 5px 5px 10px white}
+}
